@@ -7,6 +7,6 @@
             "test": "echo 'The test step is here'",
             "deploy": "echo 'The deploy step is here'"
         },
-        "author": "CTU23",
+        "author": "Caitlin",
         "license": "ISC"
     }
