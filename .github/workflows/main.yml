@@ -81,4 +81,4 @@ jobs:
           subject = "CI/CD Pipeline Failed"
           contents = "The CI/CD pipeline has failed. Please check the logs for details."
           yag.send('${{ secrets.GMAIL_USERNAME }}', subject, contents)
-        if: ${{ failure() }}
+        if: ${{ failure() }
